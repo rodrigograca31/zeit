@@ -5,7 +5,7 @@
 	"main": "script.js",
 	"scripts": {
 		"devserver": "live-server",
-		"build": "mkdir -p public && cd HTTP-Movies-Assignment && npm install && npm run start & cd HTTP-Movies-Assignment/client && npm run build && mv -v build/* ../../public/"
+		"build": "mkdir -p public && cd HTTP-Movies-Assignment && npm install && npm run start & cd HTTP-Movies-Assignment/client && npm install && npm run build && mv -v build/* ../../public/"
 	},
 	"repository": {
 		"type": "git",

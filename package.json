@@ -1,0 +1,26 @@
+{
+	"name": "deploy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"devserver": "live-server",
+		"build": "echo building"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rodrigograca31/zeit.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rodrigograca31/zeit/issues"
+	},
+	"homepage": "https://github.com/rodrigograca31/zeit#readme",
+	"devDependencies": {
+		"eslint": "^6.7.2",
+		"eslint-plugin-react": "^7.17.0",
+		"live-server": "^1.2.1"
+	}
+}

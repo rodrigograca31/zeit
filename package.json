@@ -5,7 +5,7 @@
 	"main": "script.js",
 	"scripts": {
 		"devserver": "live-server",
-		"build": "mkdir -p public && cp index.html script.js public"
+		"build": "mkdir -p public && cp index.html script.js public && echo '<div>BUILT!!!</div>' >> public/index.html"
 	},
 	"repository": {
 		"type": "git",
